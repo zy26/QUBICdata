@@ -1,0 +1,36 @@
+---
+title: "QUBIC Data tutorial"
+author:
+- Yu Zhang
+- Qin Ma
+classoption: hyperref,
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: tango
+  html_document: default
+  word_document:
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 5
+    highlight: tango
+    md_extensions: -autolink_bare_uris
+bibliography: bibliography.bib
+---
+<!--
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteIndexEntry{QUBICdata vignette}
+-->
+
+# Introduction
+
+The package contain gene expression data matrix for experiments with E.coli from Many Microbe Microarrays Database (M3D)[@faith2008]. 
+
+# Usage
+
+```{r}
+library(QUBICdata)
+data("ecoli")
+```
+
+# References
