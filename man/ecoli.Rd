@@ -14,7 +14,7 @@ Gene expression data matrix for experiments with E.coli from Many Microbe Microa
 % - attr(*, "dimnames")=List of 2
 %  ..$ : chr [1:4297] "b4634" "b3241" "b3240" "b3243" ...
 %  ..$ : chr [1:466] "dinI_U_N0025" "dinP_U_N0025" "lexA_U_N0025" "lon_U_N0025" ...
-Data frame with information about the expression levels of 4297 genes over 466 conditions.}
+Large matrix with information about the expression levels of 4297 genes over 466 conditions.}
 %\details{}
 \source{
 http://m3d.mssm.edu/
