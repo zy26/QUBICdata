@@ -1,7 +1,7 @@
 Package: QUBICdata
 Type: Package
 Title: Data employed in the vignette of the QUBIC package
-Description: The data employed in the vignette of the QUBIC package. These data belong to the Many Microbe Microarrays Database.
+Description: The data employed in the vignette of the QUBIC package. These data belong to Many Microbe Microarrays Database and STRING v10.
 Authors@R: c(person("Yu", "Zhang", role = c("aut", "cre"), email = "zy26@jlu.edu.cn"),
              person("Qin", "Ma", role = "aut", email = "qin.ma@sdstate.edu"))
 VignetteBuilder: knitr

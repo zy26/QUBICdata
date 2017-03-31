@@ -1,14 +1,19 @@
 ---
-title: "QUBIC Data tutorial"
+title: "QUBIC Data Tutorial"
 author:
 - Yu Zhang
 - Qin Ma
-classoption: hyperref,
+classoption: hyperref
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{QUBIC Data Tutorial}
 output:
   pdf_document:
     fig_caption: yes
     highlight: tango
-  html_document: default
+  html_document:
+    theme: flatly
+    highlight: tango
   word_document:
     fig_caption: yes
     fig_height: 5
@@ -17,10 +22,6 @@ output:
     md_extensions: -autolink_bare_uris
 bibliography: bibliography.bib
 ---
-<!--
-%\VignetteEngine{knitr::rmarkdown}
-%\VignetteIndexEntry{QUBICdata vignette}
--->
 
 # Introduction
 
@@ -31,6 +32,7 @@ The package contain gene expression data matrix for experiments with E.coli from
 ```{r}
 library(QUBICdata)
 data("ecoli")
+data("ecoli.weight")
 ```
 
 # References
