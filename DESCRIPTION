@@ -1,15 +1,16 @@
 Package: QUBICdata
+Type: Package
 Title: Data employed in the vignette of the QUBIC package
-Version: 0.99.1
+Description: The data employed in the vignette of the QUBIC package. These data belong to the Many Microbe Microarrays Database.
 Authors@R: c(person("Yu", "Zhang", role = c("aut", "cre"), email = "zy26@jlu.edu.cn"),
              person("Qin", "Ma", role = "aut", email = "qin.ma@sdstate.edu"))
-Author: Yu Zhang <zy26@jlu.edu.cn>,
-    Qin Ma <qin.ma@sdstate.edu>
-Description: The data employed in the vignette of the QUBIC package. These data belong to the Many Microbe Microarrays Database.
-Maintainer: Yu Zhang <zy26@jlu.edu.cn>
-Depends: R (>= 3.2)
-License: Unlimited | file LICENSE
+VignetteBuilder: knitr
 biocViews: Escherichia_coli_Data, OrganismData, ExperimentData
-NeedsCompilation: no
+Version: 0.99.1
+License: Unlimited | file LICENSE
+Depends: R (>= 3.2)
+Suggests:
+    knitr,
+    rmarkdown
 URL: http://github.com/zy26/QUBICdata
 BugReports: http://github.com/zy26/QUBICdata/issues
