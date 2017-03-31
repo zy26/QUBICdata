@@ -8,7 +8,7 @@ VignetteBuilder: knitr
 biocViews: Escherichia_coli_Data, OrganismData, ExperimentData
 Version: 0.99.1
 License: Unlimited | file LICENSE
-Depends: R (>= 3.2)
+Depends: R (>= 3.1)
 Suggests:
     knitr,
     rmarkdown
